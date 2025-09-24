@@ -8,8 +8,8 @@ Run the full pipeline (download → process → label → classify → PaCE) wit
 python 0.download_files.py && python 1.1_processing.py && python 1.2_labeling_v2.1.py && python 2_concept_classification.py && python 3_pace_v3.py
 ```
 
-> Tip: Ensure your environment has the required packages installed (see `requirements.txt`). 
-> If the pipeline uses gated models (e.g., Llama‑2), export your Hugging Face token first:
+> Tip: Ensure your environment has the required packages installed. 
+export your Hugging Face token first:
 > `export HF_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 
 ## Scripts order
